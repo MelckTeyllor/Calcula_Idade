@@ -65,7 +65,7 @@ if (m3 < 0) {
     y3--;
 }
 
-result.innerHTML = `Você tem ${y3} anos, ${m3} meses e ${d3} dias de idade`;
+result.innerHTML = `Você tem <span>${y3}</span> anos,<span>${m3}</span> meses e <span>${d3}</span> dias de idade`;
         }
         function getDaysInMonth(year, month){
                 return new Date(year, month, 0).getDate();
